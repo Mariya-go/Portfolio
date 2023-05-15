@@ -1,6 +1,6 @@
-# Name of project
+# Maria Holovko Portfolio
 
-> A longer description
+> This is portfolio of Maria Holovko
 
 ## Table of contents
 
