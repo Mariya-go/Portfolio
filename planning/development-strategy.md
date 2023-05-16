@@ -1,16 +1,8 @@
-# Project Name
+# Maria Holovko portfolio
 
 <!-- describe your project -->
 
----
-
-## Setup
-
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+## Web page about Maria Holovko as a developer
 
 ---
 
@@ -18,38 +10,89 @@
 
 ## user story
 
-<!-- each issue created from this section will have the `for: user story` label -->
+### Title
 
-> "as a ... i can ... so that ..."
+> As a visitor I want to see title so that I know what this page about
 
-<!-- write any extra notes or description -->
+- This user story should develop on branch `title`.
+- This branch is merged to `main` branch after completion.
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+### HTML-Title
 
-### Logic: user story
+- a _title_ task -> this will become one issue
+  - add `header` section
+  - add `title-container` `div`
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### CSS-Title
 
-### Interface: user story
+- a _title_ task -> this will become one issue
+  - add class `title` to `header`
+  - add class `title-container` to `div`
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### About section
 
-### Interaction: user story
+> As a visitor I want to read about person so that I know who is she
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- This user story should develop on branch `about`.
+- This branch is merged to `main` branch after completion.
 
-### Documentation: user story
+### HTML-About
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- an _about_ task -> this will become one issue
+  - add `main`
+  - add `about` `section`
+  - add `about-container` `div` for text part
+  - add `img-container` `div` for img
+
+### CSS-About
+
+- an _about_ task -> this will become one issue
+  - add class `about` to `section`
+  - make `display`flex and add `padding`
+  - add class `about-container` to `div`
+  - add class `img-container` to `div` for img
+
+### Project sections
+
+> As a visitor I want to see projects of Maria so that I can understand her
+> level as a developer
+
+- This user story should develop on branch `projects`.
+- This branch is merged to `main` branch after completion.
+
+### HTML-Project
+
+- a _projects_ task -> this will become one issue
+  - add `project1` `section`
+  - add `project1-container` `div` for text part
+  - add `project1Img-container` `div` for screenshot
+  - copy structure for another projects
+
+### CSS-Project
+
+- an _projects_ task -> this will become one issue
+  - add class `project1` to `section`
+  - make `display`flex and add `padding`
+  - add class `project1-container` to `div`
+  - add class `project1Img-container` to `div` for screenshot
+  - copy styles for another projects
+
+### Footer
+
+> As a visitor I want to see footer of the page with contacts of Maria so that I
+> can contact her
+
+- This user story should develop on branch `footer`.
+- This branch is merged to `main` branch after completion.
+
+### HTML-Footer
+
+- a _footer_ task -> this will become one issue
+  - add `footer` `section`
+  - add `footer-container` `div`
+
+### CSS-Footer
+
+- an _projects_ task -> this will become one issue
+  - add class `footer` to `section`
+  - add class `footer-container` to `div`
