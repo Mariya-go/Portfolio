@@ -237,6 +237,11 @@ body {
 	height: 3.5rem;
 }
 
+.footer-social li img {
+  width: 3.5rem;
+	height: 3.5rem;
+}
+
 .footer-social li {
   font-size: 25px;
 }
