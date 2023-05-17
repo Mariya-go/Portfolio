@@ -5,7 +5,6 @@
     <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project!</title>
-
     <link href="./styles/index.css" rel="stylesheet" />
   </head>
   <body>
@@ -19,28 +18,82 @@
     </header>
     <!--Main section-->
     <main>
+      <!--About section-->
       <section class="about-section">
         <div class="text-container">
           <h2>About me</h2>
           <p>My name is Maria Holovko. I am from Ukraine. I live in Belgium, Brussels. I love coding and looking forward to find a job as a Front end Developer. </p>
           <h3>My skills:</h3>
           <ul>
-            <li>Agile development</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git Hub</li>
-            <li>Bootstrap</li>
-            <li>Java script</li>
+            <li>Agile development <img src="./public/agile.jpg" alt="agile"></li>
+            <li>HTML <img src="./public/html.png" alt="html"></li>
+            <li>CSS <img src="./public/css.png" alt="css"></li>
+            <li>GitHub <img src="./public/GitHub.png" alt="github"></li>
+            <li>Bootstrap <img src="./public/bootstrap.png" alt="bootstrap"></li>
+            <li>Java Script <img src="./public/js.png" alt="java script"></li>
           </ul>
-          <button type="button" class="about-button" onclick="location.href='https://github.com/Mariya-go">
+          <button type="button" class="about-button" target="_blank" onclick="location.href='https://github.com/Mariya-go'">
           My Git Hub
           </button>
         </div>
         <div class="img-container">
-          <img src="./public/rsz-mariah.jpg" alt="Maria Holovko">
+          <img src="./public/mariya-holovko.jpeg" alt="Maria Holovko">
         </div>
       </section>
-
+      <!--Project 1-->
+      <section class="project1">
+        <div class="project1-containerText">
+          <h2>My projects</h2>
+          <h3>Weather forecast</h3>
+          <p>Simple application for discover weather in any place.</p>
+          <h3>Used technologies:</h3>
+          <ul>
+            <li>HTML <img src="./public/html.png" alt="html"></li>
+            <li>CSS <img src="./public/css.png" alt="css"></li>
+            <li>Bootstrap <img src="./public/bootstrap.png" alt="bootstrap"></li>
+            <li>Java script <img src="./public/js.png" alt="java script"></li>
+            <li>GitHub <img src="./public/GitHub.png" alt="github"></li>
+          </ul>
+          <button type="button" class="project1-button" onclick="location.href='https://cerulean-naiad-9685e7.netlify.app/'">Weather app</button>
+        </div>
+        <div class="project1-containerImg">
+          <img class="project-img" src="./public/Weather.png" alt="weather app">
+        </div>
+      </section>
+      <!--Project 2-->
+      <section class="project2">
+        <div class="project2-containerText">
+          <h3>Healthy deserts</h3>
+          <p>Cutaway page about healthy deserts. This was my first page</p>
+          <h3>Used technologies:</h3>
+          <ul>
+            <li>HTML <img src="./public/html.png" alt="html"></li>
+            <li>CSS <img src="./public/css.png" alt="css"></li>
+            <li>Java script <img src="./public/js.png" alt="java script"></li>
+          </ul>
+          <button type="button" class="project2-button" onclick="location.href='https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/837/654/original/Project1_Holovko.html?1651571325'">Deserts page</button>
+        </div>
+        <div class="project2-containerImg">
+          <img class="project2-img" src="./public/deserts.png" alt="healthy deserts">
+        </div>
+      </section>
+      <!--Project 3-->
+      <section class="project2">
+        <div class="project2-containerText">
+          <h3>Hack Your Future rebuild</h3>
+          <p>It was group project. I rebuild Volunteer page. </p>
+          <h3>Used technologies:</h3>
+          <ul>
+            <li>HTML <img src="./public/html.png" alt="html"></li>
+            <li>CSS <img src="./public/css.png" alt="css"></li>
+            <li>GitHub <img src="./public/GitHub.png" alt="github"></li>
+          </ul>
+          <button type="button" class="project2-button" onclick="location.href='https://bf-frontend-class.github.io/agile-development-group1-hyf-rebuild/pages/volunteer.html'">HYF rebuild</button>
+        </div>
+        <div class="project2-containerImg">
+          <img class="project2-img" src="./public/hyf-rebuild.png" alt="HYF rebuild">
+        </div>
+      </section>
     </main>
   </body>
 </html>
