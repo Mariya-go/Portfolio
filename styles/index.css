@@ -223,3 +223,20 @@ body {
 .project2-containerImg {
   width: 60%;
 }
+
+/* Footer */
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.img-social {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.footer-social li {
+  font-size: 25px;
+}
