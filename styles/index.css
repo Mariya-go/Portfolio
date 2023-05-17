@@ -1,9 +1,8 @@
-@import url("./something.css");
-
 /* body styles */
 body {
-  background-color: antiquewhite;
+  background-color: #f2eaea;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #483232;
 }
 
 /* header */
@@ -16,6 +15,7 @@ body {
   text-align: center;
   font-size: 50px;
   font-weight: 500;
+  margin: 10px auto 10px;
 }
 
 /* about section */
@@ -32,6 +32,8 @@ body {
 .text-container h2 {
   font-size: 35px;
   font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .text-container p {
@@ -42,15 +44,18 @@ body {
 .text-container h3 {
   font-size: 35px;
   font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .text-container ul {
   font-size: 25px;
   font-weight: 500;
+  margin-top: 10px;
   }
 
 .text-container li {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .img-container {
@@ -60,27 +65,171 @@ body {
 .img-container img {
   width: 500px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  margin: 50px auto;
+  }
 
 .about-button {
     width: 15rem;
-    height: 4.5rem;
+    height: 3.5rem;
     border-style: none;
     font-size: 1.7rem;
     letter-spacing: 0.2rem;
-    background: #3a2d2d;
-    color: rgb(236, 236, 236);
+    background: #483232;
+    color: #ececec;
     font-weight: 500;
     border-radius: 0.5rem;
     cursor: pointer;
-    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.324);
+    box-shadow: 1rem 1rem 1rem #00000053;
     transition: all 0.4s;
     margin-top: 20px;
 }
 
 .about-button:hover {
-    background-color: rgb(229, 197, 67);
-    color: #3a2d2d;
+    background-color: #bcaa82;
+    color: #48323d;
+}
+
+.text-container li img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Project 1 section */
+.project1 {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0;
+}
+
+.project1-containerText {
+  width: 40%;
+  padding: 0 60px;
+}
+
+.project-img {
+  width: 1000px;
+  display: block;
+  margin: 110px auto;
+}
+
+.project1-containerText h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.project1-containerText p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.project1-containerText h3 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.project1-containerText ul {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.project1-containerText li {
+  margin: 5px 0;
+}
+
+.project1-button {
+  width: 15rem;
+  height: 3.5rem;
+  border-style: none;
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  background: #483232;
+  color: #ececec;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 1rem 1rem 1rem #00000053;
+  transition: all 0.4s;
+  margin-top: 20px;
+}
+
+.project1-button:hover {
+  background-color: #bcaa82;
+  color: #48323d;
+}
+
+.project1-containerText li img {
+  width: 30px;
+  height: 30px;
+}
+
+.project1-containerImg {
+  width: 60%;
+}
+
+/* Project 2 section */
+.project2 {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0;
+}
+
+.project2-containerText {
+  width: 40%;
+  padding: 0 60px;
+}
+
+.project2-containerText p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.project2-containerText h3 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.project2-img {
+  width: 1000px;
+  display: block;
+  margin: 40px auto;
+}
+
+.project2-containerText ul {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.project2-containerText li {
+  margin: 5px 0;
+}
+
+.project2-button {
+  width: 15rem;
+  height: 3.5rem;
+  border-style: none;
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  background: #483232;
+  color: #ececec;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 1rem 1rem 1rem #00000053;
+  transition: all 0.4s;
+  margin-top: 20px;
+}
+
+.project2-button:hover {
+  background-color: #bcaa82;
+  color: #48323d;
+}
+
+.project2-containerText li img {
+  width: 30px;
+  height: 30px;
+}
+
+.project2-containerImg {
+  width: 60%;
 }
