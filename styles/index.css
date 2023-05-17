@@ -89,7 +89,7 @@ body {
     color: #48323d;
 }
 
-.text-container li img {
+.icon {
   width: 30px;
   height: 30px;
 }
@@ -158,11 +158,6 @@ body {
   color: #48323d;
 }
 
-.project1-containerText li img {
-  width: 30px;
-  height: 30px;
-}
-
 .project1-containerImg {
   width: 60%;
 }
@@ -223,11 +218,6 @@ body {
 .project2-button:hover {
   background-color: #bcaa82;
   color: #48323d;
-}
-
-.project2-containerText li img {
-  width: 30px;
-  height: 30px;
 }
 
 .project2-containerImg {
