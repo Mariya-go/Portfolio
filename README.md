@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Portfolio](#Maria-Holovko-Portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,19 +22,19 @@
 
 ## General info
 
-> A short description
+> This is Maria Holovko portfolio
 
-## Screenshots
+## Screenshot
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./public/screenshot.png)
 
 ## Technologies
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
+- GitHub
 
 ## Setup
 
@@ -42,35 +42,33 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<section class="about-section">
+  <div class="text-container">
+    <h2>About me</h2>
+  </div>
+</section>
 ```
 
 ## Features
 
-List of features ready and Todos for future development
-
--
--
--
+- Responsive design
 
 To-do list:
 
--
--
+Better design
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by Maria Holovko
 
 ## Contact
 
-By [Name]
+[Maria Holovko](https://github.com/Mariya-go)
 
 ## Instructions for use
 
